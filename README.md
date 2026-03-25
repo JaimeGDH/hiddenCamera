@@ -1,6 +1,6 @@
-# DarkLens (Stealth Video Recorder)
+# DarkVideo (Stealth Video Recorder)
 
-**DarkLens** es una aplicación desarrollada en Flutter diseñada exclusivamente para fines de seguridad personal, periodismo ciudadano y documentación ética. 
+**DarkVideo** (previamente "Dark Video") es una aplicación desarrollada en Flutter diseñada exclusivamente para fines de seguridad personal, periodismo ciudadano y documentación ética. 
 
 Su propósito central es permitir la grabación de videos de forma segura, silenciosa y visualmente indetectable, protegiendo al usuario ante situaciones de emergencia.
 
@@ -9,7 +9,7 @@ Su propósito central es permitir la grabación de videos de forma segura, silen
 * **Grabación Sigilosa (Pantalla Oscura):** Al iniciar la grabación, la pantalla del dispositivo se vuelve inmediatamente de color negro profundo. Se activa el Modo Inmersivo de Android, ocultando la barra de estado y la botonera de navegación para evitar cualquier distracción luminosa.
 * **Soporte Multi-Cámara:** Cuenta con una interfaz intuitiva con dos botones grandes (Rojo y Azul) para seleccionar entre la cámara **Principal (Trasera)** o la cámara **Frontal (Selfie)** de forma rápida y sin mirar.
 * **Manejo Inteligente de Hardware (Sin Punto Verde):** 
-  * A diferencia de otras aplicaciones, DarkLens **no** inicializa la cámara al abrir la app. Sólo la activa durante la grabación.
+  * A diferencia de otras aplicaciones, DarkVideo **no** inicializa la cámara al abrir la app. Sólo la activa durante la grabación.
   * Al terminar de grabar (presionando el botón físico de apagado/bloqueo de pantalla), la instancia de la cámara se destruye automáticamente en una milésima de segundo, borrando instantáneamente el indicador de "punto verde" nativo de privacidad de Android/iOS en segundo plano.
 * **Guardado Directo en Galería:** Utiliza el paquete `gal` para inyectar transparentemente el archivo `.mp4` resultante a la Galería pública de tu teléfono tan pronto terminas de grabar, sin necesitar que mantengas la pantalla encendida.
 * **Protección Legal (Disclaimer):** Integración de un robusto aviso de Términos y Uso Ético inicial. El usuario está obligado a aceptar las condiciones legales de privacidad y consentimiento de su país antes de acceder a la cámara, desligando al creador de cualquier mal uso.
