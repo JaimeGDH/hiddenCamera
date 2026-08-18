@@ -6,7 +6,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:label="DarkVideo"
+        android:label="HiddenCamera"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <meta-data

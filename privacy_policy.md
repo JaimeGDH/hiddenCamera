@@ -1,8 +1,8 @@
-# Privacy Policy for DarkVideo
+# Privacy Policy for HiddenCamera
 
 **Effective Date:** 2026-03-25
 
-Jaime Venegas ("Developer", "we", "us", or "our") built the DarkVideo app as a Free app. This SERVICE is provided by Jaime Venegas at no cost and is intended for use as is.
+Jaime Venegas ("Developer", "we", "us", or "our") built the HiddenCamera app as a Free app. This SERVICE is provided by Jaime Venegas at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 
@@ -11,7 +11,7 @@ This page is used to inform visitors regarding our policies with the collection,
 For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information.
 
 **CAMERA AND MICROPHONE USAGE:**
-DarkVideo requires access to your device's camera and microphone exclusively to function as a video recorder. 
+HiddenCamera requires access to your device's camera and microphone exclusively to function as a video recorder. 
 - The app operates entirely locally on your device.
 - We **do not** collect, transmit, store on external servers, or share any audio, video, or image data captured by the camera or microphone. All media captured remains strictly on your personal device storage (Local Gallery).
 
