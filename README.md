@@ -19,7 +19,12 @@ Su propósito central es permitir la grabación de videos de forma segura, silen
 Este proyecto está construido en **Flutter** (Dart), y hace uso de las siguientes librerías principales:
 - [`camera`](https://pub.dev/packages/camera): Para capturar el flujo de video y controlar el flash.
 - [`gal`](https://pub.dev/packages/gal): Para el guardado nativo y permisos de la galería del teléfono.
-- [`google_mobile_ads`](https://pub.dev/packages/google_mobile_ads): (Opcional/Removido) Preparado para monetización con AdMob.
+
+## 🔓 Open Source & Privacidad
+
+**HiddenCamera** es un proyecto 100% de Código Abierto (Open Source), gratuito y transparente.
+* **Sin Anuncios (Ad-Free):** No incluye ningún marco de monetización ni publicidad (Google AdMob removido por completo).
+* **Sin Rastreos:** No recopila datos de usuario, ni telemetría ni analíticas externas. Todo funciona 100% de manera local en tu dispositivo.
 
 ## 📦 Instalación
 

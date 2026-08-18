@@ -22,11 +22,9 @@ The app requires storage permissions to save the recorded MP4 video files direct
 
 We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
 
-## Advertising (AdMob)
-The app uses third-party services that may collect information used to identify you.
-Link to privacy policy of third-party service providers used by the app:
-*   [Google Play Services](https://policies.google.com/privacy)
-*   [AdMob](https://support.google.com/admob/answer/6128543?hl=en)
+## Open Source & No Advertising
+
+HiddenCamera is 100% free and open-source. The application contains no advertisements, no tracking SDKs, no analytical telemetry, and no monetization frameworks. All functionality operates strictly locally on your device.
 
 ## Changes to This Privacy Policy
 

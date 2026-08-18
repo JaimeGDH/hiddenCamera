@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:camera/camera.dart';
 import 'package:gal/gal.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:io';
 import 'dart:ui' as ui;
@@ -41,7 +40,6 @@ String _t(String key) {
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  MobileAds.instance.initialize();
   
   try {
     cameras = await availableCameras();
@@ -192,46 +190,16 @@ class _MainDarkVideoScreenState extends State<MainDarkVideoScreen> with WidgetsB
   bool _isRecording = false;
   bool _isStopping = false;
 
-  BannerAd? _bannerAd;
-  bool _isAdLoaded = false;
-
-  final String _adUnitId = Platform.isAndroid 
-      ? 'ca-app-pub-4566173049235624/3975499794' 
-      : 'ca-app-pub-4566173049235624/3975499794';
-
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    _loadAd();
-  }
-
-  void _loadAd() {
-    _bannerAd = BannerAd(
-      adUnitId: _adUnitId,
-      request: const AdRequest(),
-      size: AdSize.banner,
-      listener: BannerAdListener(
-        onAdLoaded: (ad) {
-          if (mounted) {
-            setState(() {
-              _isAdLoaded = true;
-            });
-          }
-        },
-        onAdFailedToLoad: (ad, err) {
-          print('Ad failed to load: $err');
-          ad.dispose();
-        },
-      ),
-    )..load();
   }
 
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     _cameraController?.dispose();
-    _bannerAd?.dispose();
     super.dispose();
   }
 
@@ -350,14 +318,6 @@ class _MainDarkVideoScreenState extends State<MainDarkVideoScreen> with WidgetsB
               icon: Icons.camera_front,
               onTap: () => _startRecording(CameraLensDirection.front),
             ),
-            if (_isAdLoaded && _bannerAd != null) ...[
-              const SizedBox(height: 80), 
-              SizedBox(
-                width: _bannerAd!.size.width.toDouble(),
-                height: _bannerAd!.size.height.toDouble(),
-                child: AdWidget(ad: _bannerAd!),
-              ),
-            ]
           ],
         ),
       ),
