@@ -1,6 +1,6 @@
 # HiddenCamera (Stealth Video Recorder)
 
-**HiddenCamera** (previamente "Hidden Camera") es una aplicación desarrollada en Flutter diseñada exclusivamente para fines de seguridad personal, periodismo ciudadano y documentación ética. 
+**HiddenCamera** es una aplicación desarrollada en Flutter diseñada exclusivamente para fines de seguridad personal, periodismo ciudadano y documentación ética. 
 
 Su propósito central es permitir la grabación de videos de forma segura, silenciosa y visualmente indetectable, protegiendo al usuario ante situaciones de emergencia.
 
