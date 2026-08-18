@@ -2,7 +2,7 @@
 
 **Effective Date:** 2026-03-25
 
-Jaime Venegas ("Developer", "we", "us", or "our") built the HiddenCamera app as a Free app. This SERVICE is provided by Jaime Venegas at no cost and is intended for use as is.
+JaimeGDH ("Developer", "we", "us", or "our") built the HiddenCamera app as a Free app. This SERVICE is provided by JaimeGDH at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 

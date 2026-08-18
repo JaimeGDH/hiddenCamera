@@ -1,4 +1,4 @@
-package com.jaimevenegas.darkvideo
+package com.jaimegdh.hiddencamera
 
 import io.flutter.embedding.android.FlutterActivity
 
